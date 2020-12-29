@@ -1,0 +1,28 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "chat",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --inspect server.js",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngoquanglinh/chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngoquanglinh/chat/issues"
+  },
+  "homepage": "https://github.com/ngoquanglinh/chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
